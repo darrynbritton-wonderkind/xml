@@ -11,7 +11,7 @@
     <job>
         <title><![CDATA[ Location test LT-01: City, no state (NL) ]]></title>
         <referencenumber><![CDATA[ LT-01 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-01 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Utrecht ]]></location>
@@ -26,7 +26,7 @@
     <job>
         <title><![CDATA[ Location test LT-02: City with state and postcode (NL) ]]></title>
         <referencenumber><![CDATA[ LT-02 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-02 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Arnhem ]]></location>
@@ -43,7 +43,7 @@
     <job>
         <title><![CDATA[ Location test LT-03: City (DE) ]]></title>
         <referencenumber><![CDATA[ LT-03 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-03 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Pinneberg ]]></location>
@@ -59,7 +59,7 @@
     <job>
         <title><![CDATA[ Location test LT-04: SubRegion (DE Kreis) ]]></title>
         <referencenumber><![CDATA[ LT-04 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-04 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Kreis Pinneberg ]]></location>
@@ -74,7 +74,7 @@
     <job>
         <title><![CDATA[ Location test LT-05: City (GB) ]]></title>
         <referencenumber><![CDATA[ LT-05 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-05 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Manchester ]]></location>
@@ -89,7 +89,7 @@
     <job>
         <title><![CDATA[ Location test LT-06: City (US) ]]></title>
         <referencenumber><![CDATA[ LT-06 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-06 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Austin ]]></location>
@@ -105,7 +105,7 @@
     <job>
         <title><![CDATA[ Location test LT-07: City (BE) ]]></title>
         <referencenumber><![CDATA[ LT-07 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-07 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Gent ]]></location>
@@ -120,7 +120,7 @@
     <job>
         <title><![CDATA[ Location test LT-08: Region by province name (NL) ]]></title>
         <referencenumber><![CDATA[ LT-08 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-08 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Noord-Holland ]]></location>
@@ -135,7 +135,7 @@
     <job>
         <title><![CDATA[ Location test LT-09: Region with prefix (NL) ]]></title>
         <referencenumber><![CDATA[ LT-09 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-09 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Provincie Zuid-Holland ]]></location>
@@ -150,7 +150,7 @@
     <job>
         <title><![CDATA[ Location test LT-10: Region (DE) ]]></title>
         <referencenumber><![CDATA[ LT-10 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-10 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Bayern ]]></location>
@@ -165,7 +165,7 @@
     <job>
         <title><![CDATA[ Location test LT-11: Region (US) ]]></title>
         <referencenumber><![CDATA[ LT-11 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-11 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Louisiana ]]></location>
@@ -180,7 +180,7 @@
     <job>
         <title><![CDATA[ Location test LT-12: Colloquial area (GB) ]]></title>
         <referencenumber><![CDATA[ LT-12 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-12 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Cumbria ]]></location>
@@ -195,7 +195,7 @@
     <job>
         <title><![CDATA[ Location test LT-13: Colloquial area, may broaden (GB) ]]></title>
         <referencenumber><![CDATA[ LT-13 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-13 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Fermanagh ]]></location>
@@ -210,7 +210,7 @@
     <job>
         <title><![CDATA[ Location test LT-14: Country named (NL) ]]></title>
         <referencenumber><![CDATA[ LT-14 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-14 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Netherlands ]]></location>
@@ -225,7 +225,7 @@
     <job>
         <title><![CDATA[ Location test LT-15: Country named in local language (DE) ]]></title>
         <referencenumber><![CDATA[ LT-15 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-15 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Deutschland ]]></location>
@@ -240,7 +240,7 @@
     <job>
         <title><![CDATA[ Location test LT-16: Place that geocodes to a street (US) ]]></title>
         <referencenumber><![CDATA[ LT-16 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-16 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Flushing ]]></location>
@@ -256,7 +256,7 @@
     <job>
         <title><![CDATA[ Location test LT-17: Typo ]]></title>
         <referencenumber><![CDATA[ LT-17 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-17 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Amsterdm ]]></location>
@@ -271,7 +271,7 @@
     <job>
         <title><![CDATA[ Location test LT-18: Wrong state (NL) ]]></title>
         <referencenumber><![CDATA[ LT-18 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-18 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Arnhem ]]></location>
@@ -287,7 +287,7 @@
     <job>
         <title><![CDATA[ Location test LT-19: Junk text ]]></title>
         <referencenumber><![CDATA[ LT-19 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-19 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Remote Working ]]></location>
@@ -302,7 +302,7 @@
     <job>
         <title><![CDATA[ Location test LT-20: Country-wide junk (DE) ]]></title>
         <referencenumber><![CDATA[ LT-20 ]]></referencenumber>
-        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-20 ]]></url>
+        <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
         <category><![CDATA[ Technology ]]></category>
         <location><![CDATA[ Deutschlandweit ]]></location>
