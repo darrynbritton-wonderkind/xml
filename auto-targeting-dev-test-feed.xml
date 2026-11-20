@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 20 Nov 2026 09:00:00 GMT</lastBuildDate>
     <!-- LT-01: City, no state (NL). Expect: Resolves to a City: point + radius on all channels -->
     <job>
-        <title><![CDATA[ Location test LT-01: City, no state (NL) ]]></title>
+        <title><![CDATA[ Medewerker Klantenservice ]]></title>
         <referencenumber><![CDATA[ LT-01 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -24,7 +24,7 @@
     </job>
     <!-- LT-02: City with state and postcode (NL). Expect: City; the correct state must not hurt -->
     <job>
-        <title><![CDATA[ Location test LT-02: City with state and postcode (NL) ]]></title>
+        <title><![CDATA[ Verpleegkundige ]]></title>
         <referencenumber><![CDATA[ LT-02 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -41,7 +41,7 @@
     </job>
     <!-- LT-03: City (DE). Expect: City; TikTok matches 'Pinneberg' -->
     <job>
-        <title><![CDATA[ Location test LT-03: City (DE) ]]></title>
+        <title><![CDATA[ Elektriker ]]></title>
         <referencenumber><![CDATA[ LT-03 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -57,7 +57,7 @@
     </job>
     <!-- LT-04: SubRegion (DE Kreis). Expect: SubRegion; TikTok strips the 'Kreis' prefix -->
     <job>
-        <title><![CDATA[ Location test LT-04: SubRegion (DE Kreis) ]]></title>
+        <title><![CDATA[ Lagerlogistiker ]]></title>
         <referencenumber><![CDATA[ LT-04 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -72,7 +72,7 @@
     </job>
     <!-- LT-05: City (GB). Expect: City; Meta/Google radius in km -->
     <job>
-        <title><![CDATA[ Location test LT-05: City (GB) ]]></title>
+        <title><![CDATA[ Warehouse Operative ]]></title>
         <referencenumber><![CDATA[ LT-05 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -87,7 +87,7 @@
     </job>
     <!-- LT-06: City (US). Expect: City; US state present -->
     <job>
-        <title><![CDATA[ Location test LT-06: City (US) ]]></title>
+        <title><![CDATA[ Software Engineer ]]></title>
         <referencenumber><![CDATA[ LT-06 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -103,7 +103,7 @@
     </job>
     <!-- LT-07: City (BE). Expect: City in Belgium -->
     <job>
-        <title><![CDATA[ Location test LT-07: City (BE) ]]></title>
+        <title><![CDATA[ Boekhouder ]]></title>
         <referencenumber><![CDATA[ LT-07 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -118,7 +118,7 @@
     </job>
     <!-- LT-08: Region by province name (NL). Expect: Region: platform region id, no radius -->
     <job>
-        <title><![CDATA[ Location test LT-08: Region by province name (NL) ]]></title>
+        <title><![CDATA[ Vrachtwagenchauffeur ]]></title>
         <referencenumber><![CDATA[ LT-08 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -133,7 +133,7 @@
     </job>
     <!-- LT-09: Region with prefix (NL). Expect: Region; prefix is handled -->
     <job>
-        <title><![CDATA[ Location test LT-09: Region with prefix (NL) ]]></title>
+        <title><![CDATA[ Monteur ]]></title>
         <referencenumber><![CDATA[ LT-09 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -148,7 +148,7 @@
     </job>
     <!-- LT-10: Region (DE). Expect: Region; Google 'State', TikTok 'State' -->
     <job>
-        <title><![CDATA[ Location test LT-10: Region (DE) ]]></title>
+        <title><![CDATA[ Softwareentwickler ]]></title>
         <referencenumber><![CDATA[ LT-10 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -163,7 +163,7 @@
     </job>
     <!-- LT-11: Region (US). Expect: Region -->
     <job>
-        <title><![CDATA[ Location test LT-11: Region (US) ]]></title>
+        <title><![CDATA[ Registered Nurse ]]></title>
         <referencenumber><![CDATA[ LT-11 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -178,7 +178,7 @@
     </job>
     <!-- LT-12: Colloquial area (GB). Expect: Region (colloquial_area); needs the Phase 3 classifier -->
     <job>
-        <title><![CDATA[ Location test LT-12: Colloquial area (GB) ]]></title>
+        <title><![CDATA[ Care Assistant ]]></title>
         <referencenumber><![CDATA[ LT-12 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -193,7 +193,7 @@
     </job>
     <!-- LT-13: Colloquial area, may broaden (GB). Expect: Region; targets the enclosing region (Northern Ireland) -->
     <job>
-        <title><![CDATA[ Location test LT-13: Colloquial area, may broaden (GB) ]]></title>
+        <title><![CDATA[ Electrician ]]></title>
         <referencenumber><![CDATA[ LT-13 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -208,7 +208,7 @@
     </job>
     <!-- LT-14: Country named (NL). Expect: Country targeting -->
     <job>
-        <title><![CDATA[ Location test LT-14: Country named (NL) ]]></title>
+        <title><![CDATA[ Sales Assistant ]]></title>
         <referencenumber><![CDATA[ LT-14 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -223,7 +223,7 @@
     </job>
     <!-- LT-15: Country named in local language (DE). Expect: Country targeting (locale-specific name) -->
     <job>
-        <title><![CDATA[ Location test LT-15: Country named in local language (DE) ]]></title>
+        <title><![CDATA[ Projektleiter ]]></title>
         <referencenumber><![CDATA[ LT-15 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -238,7 +238,7 @@
     </job>
     <!-- LT-16: Place that geocodes to a street (US). Expect: City whose place is a route; TikTok searches on the input name -->
     <job>
-        <title><![CDATA[ Location test LT-16: Place that geocodes to a street (US) ]]></title>
+        <title><![CDATA[ Delivery Driver ]]></title>
         <referencenumber><![CDATA[ LT-16 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -254,7 +254,7 @@
     </job>
     <!-- LT-17: Typo. Expect: Expect: resolved by the geocoder or rejected; note which -->
     <job>
-        <title><![CDATA[ Location test LT-17: Typo ]]></title>
+        <title><![CDATA[ Marketingmanager ]]></title>
         <referencenumber><![CDATA[ LT-17 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -269,7 +269,7 @@
     </job>
     <!-- LT-18: Wrong state (NL). Expect: Expect REJECTED: partial match to a region -->
     <job>
-        <title><![CDATA[ Location test LT-18: Wrong state (NL) ]]></title>
+        <title><![CDATA[ Receptionist ]]></title>
         <referencenumber><![CDATA[ LT-18 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -285,7 +285,7 @@
     </job>
     <!-- LT-19: Junk text. Expect: Expect REJECTED -->
     <job>
-        <title><![CDATA[ Location test LT-19: Junk text ]]></title>
+        <title><![CDATA[ Customer Support Agent ]]></title>
         <referencenumber><![CDATA[ LT-19 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
@@ -300,7 +300,7 @@
     </job>
     <!-- LT-20: Country-wide junk (DE). Expect: Expect REJECTED (named-country rule); accepted if AcceptUnnamedCountry is on -->
     <job>
-        <title><![CDATA[ Location test LT-20: Country-wide junk (DE) ]]></title>
+        <title><![CDATA[ Buchhalter ]]></title>
         <referencenumber><![CDATA[ LT-20 ]]></referencenumber>
         <url><![CDATA[ https://www.wonderkind.com/ ]]></url>
         <company><![CDATA[ Wonderkind Technologies ]]></company>
