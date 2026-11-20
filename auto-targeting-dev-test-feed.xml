@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+  Phoenix Auto location targeting: manual DEV test feed.
+  Each job is one scenario; the comment above it says what to expect. Reference numbers are LT-01..LT-20.
+  Deploy a few jobs per channel (Meta, Google Search/Display, TikTok) with the workspace flag IsAutoLocationTargetingActive on,
+  then inspect the created campaigns. Images are public placeholders (picsum.photos); swap for your own if blocked.
+-->
+<source>
+    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 GMT</lastBuildDate>
+    <!-- LT-01: City, no state (NL). Expect: Resolves to a City: point + radius on all channels -->
+    <job>
+        <title><![CDATA[ Location test LT-01: City, no state (NL) ]]></title>
+        <referencenumber><![CDATA[ LT-01 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-01 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Utrecht ]]></location>
+        <language><![CDATA[ NL ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: City, no state (NL). Location: Utrecht. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-02: City with state and postcode (NL). Expect: City; the correct state must not hurt -->
+    <job>
+        <title><![CDATA[ Location test LT-02: City with state and postcode (NL) ]]></title>
+        <referencenumber><![CDATA[ LT-02 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-02 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Arnhem ]]></location>
+        <state><![CDATA[ Gelderland ]]></state>
+        <postalcode><![CDATA[ 6811 ]]></postalcode>
+        <language><![CDATA[ NL ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: City with state and postcode (NL). Location: Arnhem. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-03: City (DE). Expect: City; TikTok matches 'Pinneberg' -->
+    <job>
+        <title><![CDATA[ Location test LT-03: City (DE) ]]></title>
+        <referencenumber><![CDATA[ LT-03 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-03 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Pinneberg ]]></location>
+        <state><![CDATA[ Schleswig-Holstein ]]></state>
+        <language><![CDATA[ DE ]]></language>
+        <country><![CDATA[ DE ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: City (DE). Location: Pinneberg. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-04: SubRegion (DE Kreis). Expect: SubRegion; TikTok strips the 'Kreis' prefix -->
+    <job>
+        <title><![CDATA[ Location test LT-04: SubRegion (DE Kreis) ]]></title>
+        <referencenumber><![CDATA[ LT-04 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-04 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Kreis Pinneberg ]]></location>
+        <language><![CDATA[ DE ]]></language>
+        <country><![CDATA[ DE ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: SubRegion (DE Kreis). Location: Kreis Pinneberg. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-05: City (GB). Expect: City; Meta/Google radius in km -->
+    <job>
+        <title><![CDATA[ Location test LT-05: City (GB) ]]></title>
+        <referencenumber><![CDATA[ LT-05 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-05 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Manchester ]]></location>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ GB ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: City (GB). Location: Manchester. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-06: City (US). Expect: City; US state present -->
+    <job>
+        <title><![CDATA[ Location test LT-06: City (US) ]]></title>
+        <referencenumber><![CDATA[ LT-06 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-06 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Austin ]]></location>
+        <state><![CDATA[ Texas ]]></state>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ US ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: City (US). Location: Austin. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-07: City (BE). Expect: City in Belgium -->
+    <job>
+        <title><![CDATA[ Location test LT-07: City (BE) ]]></title>
+        <referencenumber><![CDATA[ LT-07 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-07 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Gent ]]></location>
+        <language><![CDATA[ NL ]]></language>
+        <country><![CDATA[ BE ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: City (BE). Location: Gent. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-08: Region by province name (NL). Expect: Region: platform region id, no radius -->
+    <job>
+        <title><![CDATA[ Location test LT-08: Region by province name (NL) ]]></title>
+        <referencenumber><![CDATA[ LT-08 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-08 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Noord-Holland ]]></location>
+        <language><![CDATA[ NL ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Region by province name (NL). Location: Noord-Holland. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-09: Region with prefix (NL). Expect: Region; prefix is handled -->
+    <job>
+        <title><![CDATA[ Location test LT-09: Region with prefix (NL) ]]></title>
+        <referencenumber><![CDATA[ LT-09 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-09 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Provincie Zuid-Holland ]]></location>
+        <language><![CDATA[ NL ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Region with prefix (NL). Location: Provincie Zuid-Holland. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-10: Region (DE). Expect: Region; Google 'State', TikTok 'State' -->
+    <job>
+        <title><![CDATA[ Location test LT-10: Region (DE) ]]></title>
+        <referencenumber><![CDATA[ LT-10 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-10 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Bayern ]]></location>
+        <language><![CDATA[ DE ]]></language>
+        <country><![CDATA[ DE ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Region (DE). Location: Bayern. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-11: Region (US). Expect: Region -->
+    <job>
+        <title><![CDATA[ Location test LT-11: Region (US) ]]></title>
+        <referencenumber><![CDATA[ LT-11 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-11 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Louisiana ]]></location>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ US ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Region (US). Location: Louisiana. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-12: Colloquial area (GB). Expect: Region (colloquial_area); needs the Phase 3 classifier -->
+    <job>
+        <title><![CDATA[ Location test LT-12: Colloquial area (GB) ]]></title>
+        <referencenumber><![CDATA[ LT-12 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-12 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Cumbria ]]></location>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ GB ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Colloquial area (GB). Location: Cumbria. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-13: Colloquial area, may broaden (GB). Expect: Region; targets the enclosing region (Northern Ireland) -->
+    <job>
+        <title><![CDATA[ Location test LT-13: Colloquial area, may broaden (GB) ]]></title>
+        <referencenumber><![CDATA[ LT-13 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-13 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Fermanagh ]]></location>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ GB ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Colloquial area, may broaden (GB). Location: Fermanagh. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-14: Country named (NL). Expect: Country targeting -->
+    <job>
+        <title><![CDATA[ Location test LT-14: Country named (NL) ]]></title>
+        <referencenumber><![CDATA[ LT-14 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-14 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Netherlands ]]></location>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Country named (NL). Location: Netherlands. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-15: Country named in local language (DE). Expect: Country targeting (locale-specific name) -->
+    <job>
+        <title><![CDATA[ Location test LT-15: Country named in local language (DE) ]]></title>
+        <referencenumber><![CDATA[ LT-15 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-15 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Deutschland ]]></location>
+        <language><![CDATA[ DE ]]></language>
+        <country><![CDATA[ DE ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Country named in local language (DE). Location: Deutschland. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-16: Place that geocodes to a street (US). Expect: City whose place is a route; TikTok searches on the input name -->
+    <job>
+        <title><![CDATA[ Location test LT-16: Place that geocodes to a street (US) ]]></title>
+        <referencenumber><![CDATA[ LT-16 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-16 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Flushing ]]></location>
+        <state><![CDATA[ NY ]]></state>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ US ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Place that geocodes to a street (US). Location: Flushing. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-17: Typo. Expect: Expect: resolved by the geocoder or rejected; note which -->
+    <job>
+        <title><![CDATA[ Location test LT-17: Typo ]]></title>
+        <referencenumber><![CDATA[ LT-17 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-17 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Amsterdm ]]></location>
+        <language><![CDATA[ NL ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Typo. Location: Amsterdm. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-18: Wrong state (NL). Expect: Expect REJECTED: partial match to a region -->
+    <job>
+        <title><![CDATA[ Location test LT-18: Wrong state (NL) ]]></title>
+        <referencenumber><![CDATA[ LT-18 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-18 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Arnhem ]]></location>
+        <state><![CDATA[ Noord-Holland ]]></state>
+        <language><![CDATA[ NL ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Wrong state (NL). Location: Arnhem. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-19: Junk text. Expect: Expect REJECTED -->
+    <job>
+        <title><![CDATA[ Location test LT-19: Junk text ]]></title>
+        <referencenumber><![CDATA[ LT-19 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-19 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Remote Working ]]></location>
+        <language><![CDATA[ EN ]]></language>
+        <country><![CDATA[ NL ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Junk text. Location: Remote Working. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+    <!-- LT-20: Country-wide junk (DE). Expect: Expect REJECTED (named-country rule); accepted if AcceptUnnamedCountry is on -->
+    <job>
+        <title><![CDATA[ Location test LT-20: Country-wide junk (DE) ]]></title>
+        <referencenumber><![CDATA[ LT-20 ]]></referencenumber>
+        <url><![CDATA[ https://www.wonderkind.com/jobs/location-test/lt-20 ]]></url>
+        <company><![CDATA[ Wonderkind Technologies ]]></company>
+        <category><![CDATA[ Technology ]]></category>
+        <location><![CDATA[ Deutschlandweit ]]></location>
+        <language><![CDATA[ DE ]]></language>
+        <country><![CDATA[ DE ]]></country>
+        <description><![CDATA[ Test job for Auto location targeting: Country-wide junk (DE). Location: Deutschlandweit. ]]></description>
+        <image1>https://picsum.photos/1200/628.jpg</image1>
+        <image2>https://picsum.photos/1080/1080.jpg</image2>
+        <image3>https://picsum.photos/1080/1920.jpg</image3>
+    </job>
+</source>
